@@ -19,10 +19,6 @@ public class GameState {
         return this.cells;
     }
 
-    /**
-     * toString() of GameState will return the string representing
-     * the GameState in JSON format.
-     */
     @Override
     public String toString() {
         return """
